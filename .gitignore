@@ -1,0 +1,46 @@
+# Node modules and build files
+/node_modules
+/dist
+
+# Public storage and hot files
+/public/hot
+/public/storage
+/storage/*.key
+
+# Vendor and Composer files
+/vendor
+
+# Environment and backup files
+.env
+.env.backup
+.env.local
+.env.*.local
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# Docker and Homestead config
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+
+# NPM & Yarn log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+.DS_Store
+
+# Package lock files (do NOT ignore)
+package-lock.json
