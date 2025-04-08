@@ -44,7 +44,9 @@ class AdminAuthController extends Controller
             if (!$token = auth('admin')->attempt($credentials)) {
                 throw new Exception('Sai tài khoản hoặc mật khẩu', 401);
             }
-
+            if (!$token = auth('admin')->attempt($credentials)) {
+                throw new Exception('Tài khoản bị lỗi', 401);
+            } 
             if (!$this->adminRepo->checkStatus($username)) {
                 throw new Exception('Tài khoản đang bị khoá', 401);
             }
