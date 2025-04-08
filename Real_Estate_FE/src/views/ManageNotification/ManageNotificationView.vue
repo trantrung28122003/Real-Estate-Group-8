@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" style="margin-top: 50px;">
     <div class="nav">
       <h4>Thông báo</h4>
     </div>

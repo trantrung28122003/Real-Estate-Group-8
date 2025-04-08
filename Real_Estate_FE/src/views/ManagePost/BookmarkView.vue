@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="margin-top: 30px;">
     <list-post :title="title"></list-post>
   </div>
 </template>

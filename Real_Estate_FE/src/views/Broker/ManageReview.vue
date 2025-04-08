@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" style="margin-top: 30px;">
     <h4>Đánh giá từ người dùng</h4>
     <el-table border :data="reviews" stripe style="width: 100%; margin-top: 20px;">
       <el-table-column align="center" label="Người dùng" width="260">
