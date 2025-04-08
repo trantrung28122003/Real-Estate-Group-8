@@ -33,20 +33,18 @@ class AdminAuthController extends Controller
     {
         try {
             $username = $request->get('username');
-            $password = $request->get('password');
-            
             $credentials = [
                 'email' => $username,
                 'password' => $password
             ];
 
-
             if (!$token = auth('admin')->attempt($credentials)) {
                 throw new Exception('Sai tài khoản hoặc mật khẩu', 401);
             }
-            if (!$token = auth('admin')->attempt($credentials)) {
-                throw new Exception('Tài khoản bị lỗi', 401);
-            } 
+
+ 
+
+
             if (!$this->adminRepo->checkStatus($username)) {
                 throw new Exception('Tài khoản đang bị khoá', 401);
             }
@@ -66,7 +64,9 @@ class AdminAuthController extends Controller
     {
         try {
             $admin_id = auth('admin')->user()->id;
-            if(!$admin_id) {
+
+            if (!$admin_id) {
+
                 throw new Exception('Chưa đăng nhập', 403);
             }
             $admin = $this->adminRepo->get($admin_id);
@@ -135,5 +135,4 @@ class AdminAuthController extends Controller
             'admin' => auth('admin')->user()
         ]);
     }
-
 }
