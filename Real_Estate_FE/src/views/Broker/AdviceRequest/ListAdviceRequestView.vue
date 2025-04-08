@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="row" style="margin-top: 10px;">
     <div class="post-filter-container">
       <div class="filter-post">
         <h4>Tìm kiếm yêu cầu</h4>

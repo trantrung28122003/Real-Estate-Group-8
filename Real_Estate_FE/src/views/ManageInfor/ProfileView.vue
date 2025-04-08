@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container" style="margin-top: 50px;">
         <h4>Quản lý tài khoản</h4>
         <el-tabs v-model="activeName" >
         <el-tab-pane label="Chỉnh sửa thông tin cá nhân" name="profile">

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => '380b20b494874c7eba987de162f16b20d19ed59f',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '949aeff6604231f6de08e86e1f31a05a0210a206',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -104,9 +104,9 @@
             'dev_requirement' => false,
         ),
         'doctrine/deprecations' => array(
-            'pretty_version' => '1.1.5',
-            'version' => '1.1.5.0',
-            'reference' => '459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38',
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'reference' => '31610dbb31faa98e6b5447b62340826f54fbc4e9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/deprecations',
             'aliases' => array(),
@@ -473,9 +473,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '380b20b494874c7eba987de162f16b20d19ed59f',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '949aeff6604231f6de08e86e1f31a05a0210a206',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div>
     <div class="header-user-detail-page">
       <img :src="`/UserBackground.jpg`" alt="">
